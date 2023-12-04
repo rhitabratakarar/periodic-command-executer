@@ -7,7 +7,7 @@ Project that will execute a list of commands periodically from a file. (defaults
 ## Installation
 
 1. Clone the repo
-2. Change the paths inside `periodic-command-executor.service` and `commands-executor.sh` to your respective `$HOME` path. (Note: Do not put `$HOME`, instead put the value of the `$HOME`).
+2. Change the paths inside `periodic-command-executor.service`, `commands-executor.sh` and `initialize.sh` to your respective `$HOME` path. (Note: Do not put `$HOME`, instead put the value of the `$HOME`).
 3. Execute the command: `sudo bash initialize.sh`
 
 ## Usage
