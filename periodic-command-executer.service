@@ -1,9 +1,0 @@
-[Unit]
-Description=Service to read the file periodic-commands.txt
-
-[Service]
-ExecStart=/usr/bin/bash /home/$USER/commands-executor.sh
-User=root
-
-[Install]
-WantedBy=multi-user.target

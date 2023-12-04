@@ -3,7 +3,8 @@ Description=Timer to run periodic-command-executor.service
 
 [Timer]
 Unit=periodic-command-executor.service
-OnActiveSec=2h
+OnBootSec=5m
+OnUnitActiveSec=30m
 
 [Install]
 WantedBy=timers.target

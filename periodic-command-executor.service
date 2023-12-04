@@ -1,0 +1,6 @@
+[Unit]
+Description=Service to read the file periodic-commands.txt
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/sup3r/commands-executor.sh
