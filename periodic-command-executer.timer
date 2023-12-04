@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer to run periodic-command-executor.service
+
+[Timer]
+Unit=periodic-command-executor.service
+OnActiveSec=2h
+
+[Install]
+WantedBy=timers.target
