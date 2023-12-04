@@ -4,7 +4,7 @@ cp commands-executor.sh $home_path
 cp periodic-commands.txt $home_path
 
 chmod 744 $home_path/commands-executor.sh
-chmod 744 $home_path/periodic-commands.txt
+chown sup3r:sup3r $home_path/periodic-commands.txt
 
 cp periodic-command-executor.service /etc/systemd/system
 cp periodic-command-executor.timer /etc/systemd/system
