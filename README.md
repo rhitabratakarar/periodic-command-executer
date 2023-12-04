@@ -31,5 +31,5 @@ Project that will execute a list of commands periodically from a file. (defaults
 
 ## Removal
 
-1. Remove the unit files `(periodic-command-executer.timer and periodic-command-executer.service)` from under `/etc/systemd/system`.
+1. Remove the unit files `(periodic-command-executer.timer) and (periodic-command-executer.service)` from under `/etc/systemd/system`.
 2. Remove the files from the `$HOME` directory `(commands-executor.sh) and (periodic-commands.txt)`
